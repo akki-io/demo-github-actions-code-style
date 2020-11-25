@@ -21,9 +21,10 @@ class Fruit
     }
 
     /**
-     * Display an introduction of the fruit
+     * Display an introduction of the fruit.
      */
-    public function intro() {
+    public function intro()
+    {
         echo "The fruit is {$this->name} and the color is {$this->color}.";
     }
 }
